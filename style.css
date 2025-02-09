@@ -1,0 +1,201 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3%;
+    background: linear-gradient(135deg, #FFF8F0, #FDE2E4, #F9A8D4, #E6C7DE);
+}
+
+
+header .logo {
+    margin-left: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: #3B3B3B;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+header nav ul li a:hover {
+    color: #3887f6;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 10%;
+    background: linear-gradient(135deg, #FAF7F5, #F9A8D4, #E6C7DE);
+    color: white;
+    gap: 50px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    color: #3B3B3B;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #3B3B3B;
+    margin: 10px 0 20px;
+}
+
+.hero-image {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.hero-image img {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Info Section */
+.info {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: white;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    width: 200px;
+}
+
+.card .image-placeholder {
+    height: 150px;
+    border: 5px solid #F9A8D4;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card .image-placeholder .product{
+    border-radius: 6px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #6D747D;
+}
+
+/* Quote Section */
+.quote {
+    background-image: url('images\woman.jpg');
+    background-color: #f0f0f0; /* Light gray fallback */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20%;
+    text-align: center;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote footer {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Call-to-Action Section */
+.cta {
+    padding: 80px 10%;
+    background-color: white;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    padding: 40px 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+.cta-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px 0 0;
+}
+
+.cta-box button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-box button:hover {
+    background-color: #1E6FD9;
+}
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;
+}
+ 
