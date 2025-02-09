@@ -15,7 +15,8 @@ header {
     align-items: center;
     padding-bottom: -1px;
     padding: 0px 4%;
-    margin-bottom: -5px;
+    margin-bottom: -20px;
+    margin-top: -20px;
     background: linear-gradient(135deg, #FFF8F0, #FDE2E4, #F9A8D4, #E6C7DE);
 }
 
